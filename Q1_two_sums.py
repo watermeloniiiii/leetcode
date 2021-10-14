@@ -5,6 +5,7 @@ class Solution(object):
         :type target: int
         :rtype: List[int]
         """
+        # Time complexity: O(n)
         keys = {}
         for i in range(len(nums)):
             if target - nums[i] in keys:
