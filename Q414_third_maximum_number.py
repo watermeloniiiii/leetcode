@@ -1,5 +1,5 @@
 class Solution():
-    def thirdMax(self, nums):
+    def solution1(self, nums):
         """
         :type nums: List[int]
         :rtype: int
@@ -8,6 +8,7 @@ class Solution():
         things pay attention to:
         1. when the length of the array is less than three, return the maxmium
         2. when are repeating elements
+        3. the time complexity is O(n), we cannot use sorting
         """
         import numpy as np
         max1 = -2**31 - 1
@@ -25,6 +26,7 @@ class Solution():
             if nums[i] < max2 and nums[i] > max3:
                 temp3 = nums[i]
                 flag = 3
+            ## replace the new maximum
             if flag == 1:
                 max3 = max2
                 max2 = max1
@@ -43,6 +45,27 @@ class Solution():
         else:
             return np.maximum(max1, max2)
 
+    def solution2(self, nums):
+        """
+        :type nums: List[int]
+        :rtype: int
+        """
+
+        if nums is None:
+            return
+
+        n = list(set(nums))
+        cp = n
+        if len(n) <= 2:
+            return max(n)
+        else:
+            i = 0
+            while i < 2:
+                cp.remove(max(cp))
+                i += 1
+
+        return max(cp)
+
 if __name__ == '__main__':
-    result = Solution().thirdMax([2, 2, 3, 1])
+    result = Solution().solution2([2, 2, 3, 1])
     print (result)
