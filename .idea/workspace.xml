@@ -20,7 +20,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="44684ea2-f2ba-49ff-9bb4-4c1e165f5e8c" name="Default Changelist" comment=".">
-      <change afterPath="$PROJECT_DIR$/Array/Q27_remove_element.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Array/Q349_intersection_of_two_arrays.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -53,7 +53,7 @@
       <recent name="E:\github\leetcode\Array" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.Q27_remove_element">
+  <component name="RunManager" selected="Python.Q349_intersection_of_two_arrays">
     <configuration name="Q26_remove_duplicates_from_sorted_arraay" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="leetcode" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -96,7 +96,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="Q414_third_maximum_number" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="Q349_intersection_of_two_arrays" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="leetcode" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -104,11 +104,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Array" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="E:\github\leetcode\Array\Q414_third_maximum_number.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Array/Q349_intersection_of_two_arrays.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -161,11 +161,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.Q349_intersection_of_two_arrays" />
         <item itemvalue="Python.Q27_remove_element" />
         <item itemvalue="Python.Q26_remove_duplicates_from_sorted_arraay" />
         <item itemvalue="Python.Q88_merge_sorted_array" />
         <item itemvalue="Python.Q53_maximum_subarray" />
-        <item itemvalue="Python.Q414_third_maximum_number" />
       </list>
     </recent_temporary>
   </component>
@@ -193,21 +193,21 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state width="1683" height="242" key="GridCell.Tab.0.bottom" timestamp="1634772423469">
+    <state width="1683" height="242" key="GridCell.Tab.0.bottom" timestamp="1634960064849">
       <screen x="0" y="0" width="1707" height="920" />
     </state>
-    <state width="1683" height="242" key="GridCell.Tab.0.bottom/0.0.1707.920@0.0.1707.920" timestamp="1634772423469" />
-    <state width="1683" height="242" key="GridCell.Tab.0.center" timestamp="1634772423469">
+    <state width="1683" height="242" key="GridCell.Tab.0.bottom/0.0.1707.920@0.0.1707.920" timestamp="1634960064849" />
+    <state width="1683" height="242" key="GridCell.Tab.0.center" timestamp="1634960064849">
       <screen x="0" y="0" width="1707" height="920" />
     </state>
-    <state width="1683" height="242" key="GridCell.Tab.0.center/0.0.1707.920@0.0.1707.920" timestamp="1634772423469" />
-    <state width="1683" height="242" key="GridCell.Tab.0.left" timestamp="1634772423469">
+    <state width="1683" height="242" key="GridCell.Tab.0.center/0.0.1707.920@0.0.1707.920" timestamp="1634960064849" />
+    <state width="1683" height="242" key="GridCell.Tab.0.left" timestamp="1634960064849">
       <screen x="0" y="0" width="1707" height="920" />
     </state>
-    <state width="1683" height="242" key="GridCell.Tab.0.left/0.0.1707.920@0.0.1707.920" timestamp="1634772423469" />
-    <state width="1683" height="242" key="GridCell.Tab.0.right" timestamp="1634772423469">
+    <state width="1683" height="242" key="GridCell.Tab.0.left/0.0.1707.920@0.0.1707.920" timestamp="1634960064849" />
+    <state width="1683" height="242" key="GridCell.Tab.0.right" timestamp="1634960064849">
       <screen x="0" y="0" width="1707" height="920" />
     </state>
-    <state width="1683" height="242" key="GridCell.Tab.0.right/0.0.1707.920@0.0.1707.920" timestamp="1634772423469" />
+    <state width="1683" height="242" key="GridCell.Tab.0.right/0.0.1707.920@0.0.1707.920" timestamp="1634960064849" />
   </component>
 </project>
