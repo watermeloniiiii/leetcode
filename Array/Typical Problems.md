@@ -8,5 +8,7 @@ Every time we compare the middle element with the target. <br>
 
 2. two pointer <br>
 Q26. Remove Duplicates from Sorted Array <br>
+Q350. Intersection of two arrays <br>
+
 
 
