@@ -5,17 +5,15 @@ class Solution(object):
         :type nums: List[int]
         :rtype: int
         """
-        import datetime
-        start = datetime.datetime.now()
 
-        i = 0
-        while i < len(nums) - 1:
+
+        for i in range(0, len(nums) - 1):
             ## if the later element equals to its former, we remove it but keep the index, becuase we have removed one element
             ## next time we will evaluate the element at the same position (but has been updated to its next value)
             if nums[i+1] == nums[i]:
                 nums.remove(nums[i+1])
-            else:
-                i += 1
+
+
 
         return len(nums)
 
