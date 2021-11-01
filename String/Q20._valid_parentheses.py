@@ -4,15 +4,16 @@ class Solution(object):
         :type s: str
         :rtype: bool
         """
-        c = {'(':')',
-             '[':']',
-             '{':'}',
-             'flag':0}
-        result = ['flag']
+        c = {'(': ')',
+             '[': ']',
+             '{': '}'}
+        result = []
         for i in range(0, len(s)):
             if s[i] in c:
                 result.append(s[i])
             else:
+                if len(result) == 0:
+                    return False
                 if s[i] != c[result[-1]]:
                     return False
                 else:

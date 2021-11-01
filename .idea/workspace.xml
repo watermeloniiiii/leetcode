@@ -20,8 +20,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="44684ea2-f2ba-49ff-9bb4-4c1e165f5e8c" name="Default Changelist" comment=".">
-      <change afterPath="$PROJECT_DIR$/String/Q219_contains_duplicates_II.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/String/Q21_merge_two_sorted_lists.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/String/Q20._valid_parentheses.py" beforeDir="false" afterPath="$PROJECT_DIR$/String/Q20._valid_parentheses.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,7 +54,7 @@
       <recent name="E:\github\leetcode\Array" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.Q20._valid_parentheses">
+  <component name="RunManager" selected="Python.Q21_merge_two_sorted_lists">
     <configuration name="Q20._valid_parentheses" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="leetcode" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -75,27 +76,6 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="Q219_contains_dupilicates_II" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="leetcode" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Array" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Array/Q219_contains_dupilicates_II.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
     <configuration name="Q219_contains_duplicates_II" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="leetcode" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -109,6 +89,27 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/String/Q219_contains_duplicates_II.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Q21_merge_two_sorted_lists" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="leetcode" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/String" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/String/Q21_merge_two_sorted_lists.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -161,11 +162,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.Q21_merge_two_sorted_lists" />
         <item itemvalue="Python.Q20._valid_parentheses" />
         <item itemvalue="Python.Q219_contains_duplicates_II" />
         <item itemvalue="Python.Q28_implement_strStr" />
         <item itemvalue="Python.Q26_remove_duplicates_from_sorted_arraay" />
-        <item itemvalue="Python.Q219_contains_dupilicates_II" />
       </list>
     </recent_temporary>
   </component>
@@ -178,6 +179,14 @@
       <option name="presentableId" value="Default" />
       <updated>1634138225785</updated>
     </task>
+    <task id="LOCAL-00001" summary=".">
+      <created>1635717297290</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1635717297290</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -192,43 +201,51 @@
     </option>
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="." />
+    <option name="LAST_COMMIT_MESSAGE" value="." />
+  </component>
   <component name="WindowStateProjectService">
     <state x="633" y="215" key="FileChooserDialogImpl" timestamp="1635280365436">
       <screen x="0" y="0" width="1707" height="920" />
     </state>
     <state x="633" y="215" key="FileChooserDialogImpl/0.0.1707.920@0.0.1707.920" timestamp="1635280365436" />
-    <state width="1683" height="299" key="GridCell.Tab.0.bottom" timestamp="1635387954590">
+    <state width="1683" height="299" key="GridCell.Tab.0.bottom" timestamp="1635729540721">
       <screen x="0" y="0" width="1707" height="920" />
     </state>
-    <state width="1683" height="299" key="GridCell.Tab.0.bottom/0.0.1707.920@0.0.1707.920" timestamp="1635387954590" />
-    <state width="1683" height="299" key="GridCell.Tab.0.center" timestamp="1635387954590">
+    <state width="1683" height="299" key="GridCell.Tab.0.bottom/0.0.1707.920@0.0.1707.920" timestamp="1635729540721" />
+    <state width="1683" height="299" key="GridCell.Tab.0.center" timestamp="1635729540721">
       <screen x="0" y="0" width="1707" height="920" />
     </state>
-    <state width="1683" height="299" key="GridCell.Tab.0.center/0.0.1707.920@0.0.1707.920" timestamp="1635387954590" />
-    <state width="1683" height="299" key="GridCell.Tab.0.left" timestamp="1635387954590">
+    <state width="1683" height="299" key="GridCell.Tab.0.center/0.0.1707.920@0.0.1707.920" timestamp="1635729540721" />
+    <state width="1683" height="299" key="GridCell.Tab.0.left" timestamp="1635729540721">
       <screen x="0" y="0" width="1707" height="920" />
     </state>
-    <state width="1683" height="299" key="GridCell.Tab.0.left/0.0.1707.920@0.0.1707.920" timestamp="1635387954590" />
-    <state width="1683" height="299" key="GridCell.Tab.0.right" timestamp="1635387954590">
+    <state width="1683" height="299" key="GridCell.Tab.0.left/0.0.1707.920@0.0.1707.920" timestamp="1635729540721" />
+    <state width="1683" height="299" key="GridCell.Tab.0.right" timestamp="1635729540721">
       <screen x="0" y="0" width="1707" height="920" />
     </state>
-    <state width="1683" height="299" key="GridCell.Tab.0.right/0.0.1707.920@0.0.1707.920" timestamp="1635387954590" />
-    <state width="1683" height="299" key="GridCell.Tab.1.bottom" timestamp="1635387954590">
+    <state width="1683" height="299" key="GridCell.Tab.0.right/0.0.1707.920@0.0.1707.920" timestamp="1635729540721" />
+    <state width="1683" height="299" key="GridCell.Tab.1.bottom" timestamp="1635729541861">
       <screen x="0" y="0" width="1707" height="920" />
     </state>
-    <state width="1683" height="299" key="GridCell.Tab.1.bottom/0.0.1707.920@0.0.1707.920" timestamp="1635387954590" />
-    <state width="1683" height="299" key="GridCell.Tab.1.center" timestamp="1635387954590">
+    <state width="1683" height="299" key="GridCell.Tab.1.bottom/0.0.1707.920@0.0.1707.920" timestamp="1635729541861" />
+    <state width="1683" height="299" key="GridCell.Tab.1.center" timestamp="1635729541861">
       <screen x="0" y="0" width="1707" height="920" />
     </state>
-    <state width="1683" height="299" key="GridCell.Tab.1.center/0.0.1707.920@0.0.1707.920" timestamp="1635387954590" />
-    <state width="1683" height="299" key="GridCell.Tab.1.left" timestamp="1635387954590">
+    <state width="1683" height="299" key="GridCell.Tab.1.center/0.0.1707.920@0.0.1707.920" timestamp="1635729541861" />
+    <state width="1683" height="299" key="GridCell.Tab.1.left" timestamp="1635729541861">
       <screen x="0" y="0" width="1707" height="920" />
     </state>
-    <state width="1683" height="299" key="GridCell.Tab.1.left/0.0.1707.920@0.0.1707.920" timestamp="1635387954590" />
-    <state width="1683" height="299" key="GridCell.Tab.1.right" timestamp="1635387954590">
+    <state width="1683" height="299" key="GridCell.Tab.1.left/0.0.1707.920@0.0.1707.920" timestamp="1635729541861" />
+    <state width="1683" height="299" key="GridCell.Tab.1.right" timestamp="1635729541861">
       <screen x="0" y="0" width="1707" height="920" />
     </state>
-    <state width="1683" height="299" key="GridCell.Tab.1.right/0.0.1707.920@0.0.1707.920" timestamp="1635387954590" />
+    <state width="1683" height="299" key="GridCell.Tab.1.right/0.0.1707.920@0.0.1707.920" timestamp="1635729541861" />
+    <state x="445" y="193" key="Vcs.Push.Dialog.v2" timestamp="1635717305692">
+      <screen x="0" y="0" width="1707" height="920" />
+    </state>
+    <state x="445" y="193" key="Vcs.Push.Dialog.v2/0.0.1707.920@0.0.1707.920" timestamp="1635717305692" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -237,6 +254,11 @@
           <url>file://$PROJECT_DIR$/Array/Q26_remove_duplicates_from_sorted_arraay.py</url>
           <line>12</line>
           <option name="timeStamp" value="5" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/String/Q21_merge_two_sorted_lists.py</url>
+          <line>111</line>
+          <option name="timeStamp" value="12" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
