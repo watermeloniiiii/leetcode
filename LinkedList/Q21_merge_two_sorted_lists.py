@@ -95,18 +95,35 @@ class Solution(object):
         :rtype: ListNode
         """
         head = new_list = Node(0)
-
-        while (l1 and l2):
-            if (l1.val < l2.val):
-                new_list.next = l1
-                l1 = l1.next
-            else:
-                new_list.next = l2
-                l2 = l2.next
-            new_list = new_list.next
-
-        new_list.next = l1 or l2
-        return head.next
+        print (id(l1))
+        print (id(l1.val))
+        print (id(l1.next))
+        # def print_node(node):
+        #     while node.next != None:
+        #         print (node.val)
+        #         node = node.next
+        # count = 1
+        # while (l1 and l2):
+        #     print (id(new_list))
+        #     print (id(head))
+        #     print (id(l2))
+        #     print (id(l1))
+        #     print ('the index is:', count)
+        #     print_node(head)
+        #     print ('new_list:')
+        #     print_node(new_list)
+        #     if (l1.val < l2.val):
+        #         new_list.next = l1
+        #         l1 = l1.next
+        #     else:
+        #         new_list.next = l2
+        #         l2 = l2.next
+        #     new_list = new_list.next
+        #     count += 1
+        #
+        #
+        # new_list.next = l1 or l2
+        # return head.next
 
 
 if __name__ == '__main__':

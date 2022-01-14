@@ -19,7 +19,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="44684ea2-f2ba-49ff-9bb4-4c1e165f5e8c" name="Default Changelist" comment="refactor codes" />
+    <list default="true" id="44684ea2-f2ba-49ff-9bb4-4c1e165f5e8c" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -52,20 +52,20 @@
       <recent name="E:\github\leetcode\Array" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.Q34">
-    <configuration name="Q20_valid_parentheses" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python.Q21_merge_two_sorted_lists (1)">
+    <configuration name="Q209_Minimum Size Subarray Sum" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="leetcode" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/String" />
-      <option name="IS_MODULE_SDK" value="true" />
+      <option name="SDK_HOME" value="C:\Users\14146\anaconda3\python.exe" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Array" />
+      <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="E:\Github\leetcode\String\Q20_valid_parentheses.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Array/Q209_Minimum Size Subarray Sum.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -160,11 +160,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.Q34" />
         <item itemvalue="Python.Q21_merge_two_sorted_lists (1)" />
+        <item itemvalue="Python.Q209_Minimum Size Subarray Sum" />
+        <item itemvalue="Python.Q34" />
         <item itemvalue="Python.Q70_climbing_stairs" />
         <item itemvalue="Python.Q21_merge_two_sorted_lists" />
-        <item itemvalue="Python.Q20_valid_parentheses" />
       </list>
     </recent_temporary>
   </component>
@@ -234,48 +234,6 @@
     <MESSAGE value="*" />
     <option name="LAST_COMMIT_MESSAGE" value="*" />
   </component>
-  <component name="WindowStateProjectService">
-    <state x="633" y="215" key="FileChooserDialogImpl" timestamp="1635280365436">
-      <screen x="0" y="0" width="1707" height="920" />
-    </state>
-    <state x="633" y="215" key="FileChooserDialogImpl/0.0.1707.920@0.0.1707.920" timestamp="1635280365436" />
-    <state width="1683" height="299" key="GridCell.Tab.0.bottom" timestamp="1635989629938">
-      <screen x="0" y="0" width="1707" height="920" />
-    </state>
-    <state width="1683" height="299" key="GridCell.Tab.0.bottom/0.0.1707.920@0.0.1707.920" timestamp="1635989629938" />
-    <state width="1683" height="299" key="GridCell.Tab.0.center" timestamp="1635989629938">
-      <screen x="0" y="0" width="1707" height="920" />
-    </state>
-    <state width="1683" height="299" key="GridCell.Tab.0.center/0.0.1707.920@0.0.1707.920" timestamp="1635989629938" />
-    <state width="1683" height="299" key="GridCell.Tab.0.left" timestamp="1635989629938">
-      <screen x="0" y="0" width="1707" height="920" />
-    </state>
-    <state width="1683" height="299" key="GridCell.Tab.0.left/0.0.1707.920@0.0.1707.920" timestamp="1635989629938" />
-    <state width="1683" height="299" key="GridCell.Tab.0.right" timestamp="1635989629938">
-      <screen x="0" y="0" width="1707" height="920" />
-    </state>
-    <state width="1683" height="299" key="GridCell.Tab.0.right/0.0.1707.920@0.0.1707.920" timestamp="1635989629938" />
-    <state width="1683" height="299" key="GridCell.Tab.1.bottom" timestamp="1635989629938">
-      <screen x="0" y="0" width="1707" height="920" />
-    </state>
-    <state width="1683" height="299" key="GridCell.Tab.1.bottom/0.0.1707.920@0.0.1707.920" timestamp="1635989629938" />
-    <state width="1683" height="299" key="GridCell.Tab.1.center" timestamp="1635989629938">
-      <screen x="0" y="0" width="1707" height="920" />
-    </state>
-    <state width="1683" height="299" key="GridCell.Tab.1.center/0.0.1707.920@0.0.1707.920" timestamp="1635989629938" />
-    <state width="1683" height="299" key="GridCell.Tab.1.left" timestamp="1635989629938">
-      <screen x="0" y="0" width="1707" height="920" />
-    </state>
-    <state width="1683" height="299" key="GridCell.Tab.1.left/0.0.1707.920@0.0.1707.920" timestamp="1635989629938" />
-    <state width="1683" height="299" key="GridCell.Tab.1.right" timestamp="1635989629938">
-      <screen x="0" y="0" width="1707" height="920" />
-    </state>
-    <state width="1683" height="299" key="GridCell.Tab.1.right/0.0.1707.920@0.0.1707.920" timestamp="1635989629938" />
-    <state x="445" y="193" key="Vcs.Push.Dialog.v2" timestamp="1635989626382">
-      <screen x="0" y="0" width="1707" height="920" />
-    </state>
-    <state x="445" y="193" key="Vcs.Push.Dialog.v2/0.0.1707.920@0.0.1707.920" timestamp="1635989626382" />
-  </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
@@ -286,5 +244,10 @@
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
+    <watches-manager>
+      <configuration name="PythonConfigurationType">
+        <watch expression="new_list" />
+      </configuration>
+    </watches-manager>
   </component>
 </project>
