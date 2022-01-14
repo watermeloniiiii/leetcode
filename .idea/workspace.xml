@@ -19,7 +19,12 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="44684ea2-f2ba-49ff-9bb4-4c1e165f5e8c" name="Default Changelist" comment="" />
+    <list default="true" id="44684ea2-f2ba-49ff-9bb4-4c1e165f5e8c" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/leetcode.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/leetcode.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LinkedList/Q21_merge_two_sorted_lists.py" beforeDir="false" afterPath="$PROJECT_DIR$/LinkedList/Q21_merge_two_sorted_lists.py" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -43,7 +48,7 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../new_classification" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -241,6 +246,24 @@
     <MESSAGE value="*" />
     <MESSAGE value="added Q34" />
     <option name="LAST_COMMIT_MESSAGE" value="added Q34" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state width="1683" height="239" key="GridCell.Tab.0.bottom" timestamp="1642207810983">
+      <screen x="0" y="0" width="1707" height="912" />
+    </state>
+    <state width="1683" height="239" key="GridCell.Tab.0.bottom/0.0.1707.912@0.0.1707.912" timestamp="1642207810983" />
+    <state width="1683" height="239" key="GridCell.Tab.0.center" timestamp="1642207810983">
+      <screen x="0" y="0" width="1707" height="912" />
+    </state>
+    <state width="1683" height="239" key="GridCell.Tab.0.center/0.0.1707.912@0.0.1707.912" timestamp="1642207810983" />
+    <state width="1683" height="239" key="GridCell.Tab.0.left" timestamp="1642207810983">
+      <screen x="0" y="0" width="1707" height="912" />
+    </state>
+    <state width="1683" height="239" key="GridCell.Tab.0.left/0.0.1707.912@0.0.1707.912" timestamp="1642207810983" />
+    <state width="1683" height="239" key="GridCell.Tab.0.right" timestamp="1642207810983">
+      <screen x="0" y="0" width="1707" height="912" />
+    </state>
+    <state width="1683" height="239" key="GridCell.Tab.0.right/0.0.1707.912@0.0.1707.912" timestamp="1642207810983" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
