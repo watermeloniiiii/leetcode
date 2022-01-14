@@ -43,7 +43,7 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../new_classification" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -212,7 +212,14 @@
       <option name="project" value="LOCAL" />
       <updated>1635989623490</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="added Q34">
+      <created>1641947139857</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1641947139857</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -232,7 +239,8 @@
     <MESSAGE value="refactor codes" />
     <MESSAGE value="q70" />
     <MESSAGE value="*" />
-    <option name="LAST_COMMIT_MESSAGE" value="*" />
+    <MESSAGE value="added Q34" />
+    <option name="LAST_COMMIT_MESSAGE" value="added Q34" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
