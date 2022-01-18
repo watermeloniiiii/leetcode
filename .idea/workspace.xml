@@ -238,15 +238,20 @@
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/Array/Q26_remove_duplicates_from_sorted_arraay.py</url>
-          <line>12</line>
-          <option name="timeStamp" value="5" />
+          <url>file://$PROJECT_DIR$/LinkedList/Q21_merge_two_sorted_lists.py</url>
+          <line>141</line>
+          <option name="timeStamp" value="15" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
     <watches-manager>
       <configuration name="PythonConfigurationType">
         <watch expression="new_list" />
+        <watch expression="head.next" />
+        <watch expression="cur" />
+        <watch expression="head" />
+        <watch expression="head" />
+        <watch expression="head" />
       </configuration>
     </watches-manager>
   </component>

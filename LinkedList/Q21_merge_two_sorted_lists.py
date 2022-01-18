@@ -87,51 +87,120 @@ class LinkedList:
                 current = current.next
         return found
 
+# class Solution(object):
+#     def mergeTwoLists(self, l1, l2):
+#         """
+#         :type l1: ListNode
+#         :type l2: ListNode
+#         :rtype: ListNode
+#         """
+#         head = new_list = Node(0)
+#
+#         count = 1
+#         while (l1 and l2):
+#             print (id(new_list))
+#             print (id(head))
+#             print (id(l2))
+#             print (id(l1))
+#             print ('the index is:', count)
+#             print_node(head)
+#             print ('new_list:')
+#             print_node(new_list)
+#             if (l1.val < l2.val):
+#                 new_list.next = l1
+#                 l1 = l1.next
+#             else:
+#                 new_list.next = l2
+#                 l2 = l2.next
+#             new_list = new_list.next
+#             count += 1
+#
+#
+#         new_list.next = l1 or l2
+#         return head.next
+
 class Solution(object):
+
+    def print_node(self, node):
+        while node.next != None:
+                print (node.val)
+                node = node.next
+        print (node.val)
+
     def mergeTwoLists(self, l1, l2):
         """
         :type l1: ListNode
         :type l2: ListNode
         :rtype: ListNode
         """
-        head = new_list = Node(0)
-        print (id(l1))
-        print (id(l1.val))
-        print (id(l1.next))
-        # def print_node(node):
-        #     while node.next != None:
-        #         print (node.val)
-        #         node = node.next
-        # count = 1
-        # while (l1 and l2):
-        #     print (id(new_list))
-        #     print (id(head))
-        #     print (id(l2))
-        #     print (id(l1))
-        #     print ('the index is:', count)
-        #     print_node(head)
-        #     print ('new_list:')
-        #     print_node(new_list)
-        #     if (l1.val < l2.val):
-        #         new_list.next = l1
-        #         l1 = l1.next
+        ## step 1
+        ## define a new linked list and a dummy head, they have the same address
+        cur = Node(0)
+        dummy = cur
+        ## step 2
+        ## while l1 or l2 is not empty, compare their values
+        while l1 and l2:
+            if (l1.val < l2.val):
+                ## step 3
+                ## if l1's current value is smaller, attach l1 to the current list and move l1 to its next node
+                cur.next = l1
+                l1 = l1.next
+            else:
+                ## step 3
+                ## if l2's current value is smaller, attach l2 to the current list and move l2 to its next node
+                cur.next = l2
+                l2 = l2.next
+            ## step 4
+            ## move current list to its next node to avoid overlap
+            cur = cur.next ## this step will not influce dummy head
+
+        cur.next = l1 or l2
+        return dummy.next
+
+    def deleteDuplicates(self, head):
+        """
+        :type head: ListNode
+        :rtype: ListNode
+        """
+        # if not head.next:
+        #     return head
+        # cur = Node(0)
+        # dummy = cur
+        # while head.next:
+        #     if head.val != head.next.val:
+        #         cur.next = Node(head.val)
+        #         head = head.next
+        #         cur = cur.next
         #     else:
-        #         new_list.next = l2
-        #         l2 = l2.next
-        #     new_list = new_list.next
-        #     count += 1
-        #
-        #
-        # new_list.next = l1 or l2
-        # return head.next
+        #         head = head.next
+        # cur.next = Node(head.val)
+        # self.print_node(dummy.next)
+        # return dummy.next
+
+
+        if not head or not head.next:
+            return head
+        curr = head.next
+        prev = head
+        prev.next = curr.next
+        self.print_node(prev)
+        self.print_node(head)
+        # while (curr):
+        #     if curr.val == prev.val:
+        #         prev.next = curr.next
+        #         curr = curr.next
+        #     else:
+        #         prev = curr
+        #         prev.next = curr.next
+        # return head
 
 
 if __name__ == '__main__':
     l1 = LinkedList()
     l2 = LinkedList()
-    [l1.append(x) for x in [1, 2, 4]]
-    [l2.append(x) for x in [1, 3, 4]]
-    print (Solution().mergeTwoLists(l1.head, l2.head))
+    [l1.append(x) for x in [1, 1, 2, 3, 3]]
+    [l2.append(x) for x in [1, 3]]
+    Solution().deleteDuplicates(l1.head)
 
 
 
