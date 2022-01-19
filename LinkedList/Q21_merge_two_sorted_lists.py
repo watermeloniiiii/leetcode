@@ -152,7 +152,7 @@ class Solution(object):
                 l2 = l2.next
             ## step 4
             ## move current list to its next node to avoid overlap
-            cur = cur.next ## this step will not influce dummy head
+            cur = cur.next ## cur becomes the reference to a new node object so will not influence
 
         cur.next = l1 or l2
         return dummy.next
@@ -182,18 +182,20 @@ class Solution(object):
             return head
         curr = head.next
         prev = head
-        prev.next = curr.next
-        self.print_node(prev)
-        self.print_node(head)
-        # while (curr):
-        #     if curr.val == prev.val:
-        #         prev.next = curr.next
-        #         curr = curr.next
-        #     else:
-        #         prev = curr
-        #         prev.next = curr.next
-        # return head
 
+        while (curr):
+            if curr.val == prev.val:
+                ## if the current value equal the previous value, it is duplicate and should be removed
+                ## we first move the current node to its next, this operation will not influence the head
+                ## we then attach the current node to the previous, so we remove the duplicate
+                curr = curr.next
+                prev.next = curr
+            else:
+                ## if the two values are not equal, then we keep the value and move the two nodes to their next
+                ## this also will not influence the head, we just move the pointer
+                prev = prev.next
+                curr = curr.next
+        return head
 
 if __name__ == '__main__':
     l1 = LinkedList()
@@ -201,6 +203,13 @@ if __name__ == '__main__':
     [l1.append(x) for x in [1, 1, 2, 3, 3]]
     [l2.append(x) for x in [1, 3]]
     Solution().deleteDuplicates(l1.head)
+
+
+
+
+
+
+
 
 
 

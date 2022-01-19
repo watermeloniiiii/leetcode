@@ -20,8 +20,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="44684ea2-f2ba-49ff-9bb4-4c1e165f5e8c" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/leetcode.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/leetcode.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Array/Q541_reverse_string_II.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/LinkedList/Q21_merge_two_sorted_lists.py" beforeDir="false" afterPath="$PROJECT_DIR$/LinkedList/Q21_merge_two_sorted_lists.py" afterDir="false" />
     </list>
@@ -57,7 +56,28 @@
       <recent name="E:\github\leetcode\Array" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.Q21_merge_two_sorted_lists (1)">
+  <component name="RunManager" selected="Python.Q541_reverse_string_II">
+    <configuration name="Q1_two_sums" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="leetcode" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Array" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Array/Q1_two_sums.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="Q209_Minimum Size Subarray Sum" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="leetcode" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -100,27 +120,6 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="Q21_merge_two_sorted_lists" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="leetcode" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/String" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="E:\Github\leetcode\LinkedList\Q21_merge_two_sorted_lists.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
     <configuration name="Q34" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="leetcode" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -142,7 +141,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="Q70_climbing_stairs" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="Q541_reverse_string_II" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="leetcode" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -150,11 +149,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/DFS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Array" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/DFS/Q70_climbing_stairs.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Array/Q541_reverse_string_II.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -165,11 +164,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.Q541_reverse_string_II" />
+        <item itemvalue="Python.Q1_two_sums" />
         <item itemvalue="Python.Q21_merge_two_sorted_lists (1)" />
         <item itemvalue="Python.Q209_Minimum Size Subarray Sum" />
         <item itemvalue="Python.Q34" />
-        <item itemvalue="Python.Q70_climbing_stairs" />
-        <item itemvalue="Python.Q21_merge_two_sorted_lists" />
       </list>
     </recent_temporary>
   </component>
@@ -248,33 +247,44 @@
     <option name="LAST_COMMIT_MESSAGE" value="added Q34" />
   </component>
   <component name="WindowStateProjectService">
-    <state width="1683" height="239" key="GridCell.Tab.0.bottom" timestamp="1642207810983">
+    <state width="1683" height="295" key="GridCell.Tab.0.bottom" timestamp="1642566568811">
       <screen x="0" y="0" width="1707" height="912" />
     </state>
-    <state width="1683" height="239" key="GridCell.Tab.0.bottom/0.0.1707.912@0.0.1707.912" timestamp="1642207810983" />
-    <state width="1683" height="239" key="GridCell.Tab.0.center" timestamp="1642207810983">
+    <state width="1683" height="295" key="GridCell.Tab.0.bottom/0.0.1707.912@0.0.1707.912" timestamp="1642566568811" />
+    <state width="1683" height="295" key="GridCell.Tab.0.center" timestamp="1642566568811">
       <screen x="0" y="0" width="1707" height="912" />
     </state>
-    <state width="1683" height="239" key="GridCell.Tab.0.center/0.0.1707.912@0.0.1707.912" timestamp="1642207810983" />
-    <state width="1683" height="239" key="GridCell.Tab.0.left" timestamp="1642207810983">
+    <state width="1683" height="295" key="GridCell.Tab.0.center/0.0.1707.912@0.0.1707.912" timestamp="1642566568811" />
+    <state width="1683" height="295" key="GridCell.Tab.0.left" timestamp="1642566568811">
       <screen x="0" y="0" width="1707" height="912" />
     </state>
-    <state width="1683" height="239" key="GridCell.Tab.0.left/0.0.1707.912@0.0.1707.912" timestamp="1642207810983" />
-    <state width="1683" height="239" key="GridCell.Tab.0.right" timestamp="1642207810983">
+    <state width="1683" height="295" key="GridCell.Tab.0.left/0.0.1707.912@0.0.1707.912" timestamp="1642566568811" />
+    <state width="1683" height="295" key="GridCell.Tab.0.right" timestamp="1642566568811">
       <screen x="0" y="0" width="1707" height="912" />
     </state>
-    <state width="1683" height="239" key="GridCell.Tab.0.right/0.0.1707.912@0.0.1707.912" timestamp="1642207810983" />
+    <state width="1683" height="295" key="GridCell.Tab.0.right/0.0.1707.912@0.0.1707.912" timestamp="1642566568811" />
+    <state width="1683" height="295" key="GridCell.Tab.1.bottom" timestamp="1642566568811">
+      <screen x="0" y="0" width="1707" height="912" />
+    </state>
+    <state width="1683" height="295" key="GridCell.Tab.1.bottom/0.0.1707.912@0.0.1707.912" timestamp="1642566568811" />
+    <state width="1683" height="295" key="GridCell.Tab.1.center" timestamp="1642566568811">
+      <screen x="0" y="0" width="1707" height="912" />
+    </state>
+    <state width="1683" height="295" key="GridCell.Tab.1.center/0.0.1707.912@0.0.1707.912" timestamp="1642566568811" />
+    <state width="1683" height="295" key="GridCell.Tab.1.left" timestamp="1642566568811">
+      <screen x="0" y="0" width="1707" height="912" />
+    </state>
+    <state width="1683" height="295" key="GridCell.Tab.1.left/0.0.1707.912@0.0.1707.912" timestamp="1642566568811" />
+    <state width="1683" height="295" key="GridCell.Tab.1.right" timestamp="1642566568811">
+      <screen x="0" y="0" width="1707" height="912" />
+    </state>
+    <state width="1683" height="295" key="GridCell.Tab.1.right/0.0.1707.912@0.0.1707.912" timestamp="1642566568811" />
+    <state x="516" y="193" width="672" height="678" key="search.everywhere.popup" timestamp="1642548415156">
+      <screen x="0" y="0" width="1707" height="912" />
+    </state>
+    <state x="516" y="193" width="672" height="678" key="search.everywhere.popup/0.0.1707.912@0.0.1707.912" timestamp="1642548415156" />
   </component>
   <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/LinkedList/Q21_merge_two_sorted_lists.py</url>
-          <line>141</line>
-          <option name="timeStamp" value="15" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
     <watches-manager>
       <configuration name="PythonConfigurationType">
         <watch expression="new_list" />
