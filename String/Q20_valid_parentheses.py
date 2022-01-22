@@ -18,10 +18,7 @@ class Solution(object):
                     return False
                 else:
                     del result[-1]
-        if len(result) == 1:
-            return True
-        else:
-            return False
+        return True
 
 if __name__ == '__main__':
-    print (Solution().isValid("()"))
+    print (Solution().isValid("()[]{}"))

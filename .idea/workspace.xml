@@ -19,11 +19,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="44684ea2-f2ba-49ff-9bb4-4c1e165f5e8c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Array/Q541_reverse_string_II.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LinkedList/Q21_merge_two_sorted_lists.py" beforeDir="false" afterPath="$PROJECT_DIR$/LinkedList/Q21_merge_two_sorted_lists.py" afterDir="false" />
-    </list>
+    <list default="true" id="44684ea2-f2ba-49ff-9bb4-4c1e165f5e8c" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -56,8 +52,8 @@
       <recent name="E:\github\leetcode\Array" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.Q541_reverse_string_II">
-    <configuration name="Q1_two_sums" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python.Q144_binary_tree_preorder">
+    <configuration name="Q136_single_number" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="leetcode" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -69,7 +65,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Array/Q1_two_sums.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Array/Q136_single_number.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -78,28 +74,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="Q209_Minimum Size Subarray Sum" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="leetcode" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="C:\Users\14146\anaconda3\python.exe" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Array" />
-      <option name="IS_MODULE_SDK" value="false" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Array/Q209_Minimum Size Subarray Sum.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="Q21_merge_two_sorted_lists (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="Q144_binary_tree_preorder" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="leetcode" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -107,11 +82,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/LinkedList" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Trees" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/LinkedList/Q21_merge_two_sorted_lists.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Trees/Q144_binary_tree_preorder.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -120,7 +95,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="Q34" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="Q20_valid_parentheses" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="leetcode" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -128,11 +103,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Array" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/String" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Array/Q34.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/String/Q20_valid_parentheses.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -141,7 +116,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="Q541_reverse_string_II" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="Q387_first_unique_character" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="leetcode" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -149,11 +124,32 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Array" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/String" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Array/Q541_reverse_string_II.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/String/Q387_first_unique_character.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="TreeGenerator" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="leetcode" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Trees" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Trees/TreeGenerator.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -164,11 +160,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.Q541_reverse_string_II" />
-        <item itemvalue="Python.Q1_two_sums" />
-        <item itemvalue="Python.Q21_merge_two_sorted_lists (1)" />
-        <item itemvalue="Python.Q209_Minimum Size Subarray Sum" />
-        <item itemvalue="Python.Q34" />
+        <item itemvalue="Python.Q144_binary_tree_preorder" />
+        <item itemvalue="Python.TreeGenerator" />
+        <item itemvalue="Python.Q387_first_unique_character" />
+        <item itemvalue="Python.Q20_valid_parentheses" />
+        <item itemvalue="Python.Q136_single_number" />
       </list>
     </recent_temporary>
   </component>
@@ -245,44 +241,6 @@
     <MESSAGE value="*" />
     <MESSAGE value="added Q34" />
     <option name="LAST_COMMIT_MESSAGE" value="added Q34" />
-  </component>
-  <component name="WindowStateProjectService">
-    <state width="1683" height="295" key="GridCell.Tab.0.bottom" timestamp="1642566568811">
-      <screen x="0" y="0" width="1707" height="912" />
-    </state>
-    <state width="1683" height="295" key="GridCell.Tab.0.bottom/0.0.1707.912@0.0.1707.912" timestamp="1642566568811" />
-    <state width="1683" height="295" key="GridCell.Tab.0.center" timestamp="1642566568811">
-      <screen x="0" y="0" width="1707" height="912" />
-    </state>
-    <state width="1683" height="295" key="GridCell.Tab.0.center/0.0.1707.912@0.0.1707.912" timestamp="1642566568811" />
-    <state width="1683" height="295" key="GridCell.Tab.0.left" timestamp="1642566568811">
-      <screen x="0" y="0" width="1707" height="912" />
-    </state>
-    <state width="1683" height="295" key="GridCell.Tab.0.left/0.0.1707.912@0.0.1707.912" timestamp="1642566568811" />
-    <state width="1683" height="295" key="GridCell.Tab.0.right" timestamp="1642566568811">
-      <screen x="0" y="0" width="1707" height="912" />
-    </state>
-    <state width="1683" height="295" key="GridCell.Tab.0.right/0.0.1707.912@0.0.1707.912" timestamp="1642566568811" />
-    <state width="1683" height="295" key="GridCell.Tab.1.bottom" timestamp="1642566568811">
-      <screen x="0" y="0" width="1707" height="912" />
-    </state>
-    <state width="1683" height="295" key="GridCell.Tab.1.bottom/0.0.1707.912@0.0.1707.912" timestamp="1642566568811" />
-    <state width="1683" height="295" key="GridCell.Tab.1.center" timestamp="1642566568811">
-      <screen x="0" y="0" width="1707" height="912" />
-    </state>
-    <state width="1683" height="295" key="GridCell.Tab.1.center/0.0.1707.912@0.0.1707.912" timestamp="1642566568811" />
-    <state width="1683" height="295" key="GridCell.Tab.1.left" timestamp="1642566568811">
-      <screen x="0" y="0" width="1707" height="912" />
-    </state>
-    <state width="1683" height="295" key="GridCell.Tab.1.left/0.0.1707.912@0.0.1707.912" timestamp="1642566568811" />
-    <state width="1683" height="295" key="GridCell.Tab.1.right" timestamp="1642566568811">
-      <screen x="0" y="0" width="1707" height="912" />
-    </state>
-    <state width="1683" height="295" key="GridCell.Tab.1.right/0.0.1707.912@0.0.1707.912" timestamp="1642566568811" />
-    <state x="516" y="193" width="672" height="678" key="search.everywhere.popup" timestamp="1642548415156">
-      <screen x="0" y="0" width="1707" height="912" />
-    </state>
-    <state x="516" y="193" width="672" height="678" key="search.everywhere.popup/0.0.1707.912@0.0.1707.912" timestamp="1642548415156" />
   </component>
   <component name="XDebuggerManager">
     <watches-manager>
