@@ -5,6 +5,7 @@ class Solution(object):
         :type target: int
         :rtype: List[int]
         """
+
         # Time complexity: O(n)
         keys = {}
         for i in range(len(nums)):
@@ -29,4 +30,4 @@ class Solution(object):
 
 if __name__ == "__main__":
     target = Solution.ordered(range(0, 100), 28)
-    print (target)
+    print(target)
